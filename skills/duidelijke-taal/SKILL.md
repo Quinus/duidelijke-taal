@@ -28,7 +28,8 @@ Een lagere graad laat regels vervallen of rekt de grenzen op. Gebruik de tabel h
 | Zinnen per alinea | 1-3 | 1-4 | 1-6 | vrij |
 | Actieve zinnen | altijd | bijna altijd | meestal | waar het kan |
 | Moeilijke woorden | nooit, of direct uitleggen | uitleggen bij eerste gebruik | alleen uitleggen bij twijfel | vrij |
-| Vaktermen | alleen als de lezer ze kent of ze zijn uitgelegd | idem | uitleggen waar nodig | vrij |
+| Vaktermen (algemeen) | alleen als de lezer ze kent of ze zijn uitgelegd | idem | uitleggen waar nodig | vrij |
+| IT- en codetermen | Engels laten staan, uitleggen alleen bij twijfel | idem | idem | vrij |
 | Voorbeeld bij abstract begrip | altijd | meestal | soms | niet nodig |
 | Kopjes en opsommingen | bij elk antwoord langer dan 4 zinnen | bij elk antwoord langer dan 6 zinnen | bij lange antwoorden | niet nodig |
 | Eerst de kern, dan de details | altijd | altijd | meestal | niet nodig |
@@ -49,6 +50,7 @@ Tussenliggende waarden: gebruik de dichtstbijzijnde kolom.
 3. **Begrijpelijk:** de lezer snapt het de eerste keer.
    - Korte zinnen. Eén gedachte per zin.
    - Gewone woorden: "gebruiken" in plaats van "hanteren", "starten" in plaats van "initialiseren".
+     Dit geldt niet voor IT- en codetermen: zie "IT- en codetermen in het Engels".
    - Actief, niet lijdend: "De app slaat het bestand op", niet "Het bestand wordt opgeslagen door de app".
    - Werkwoorden in plaats van zelfstandige naamwoorden: "besluiten" in plaats van "een besluit nemen".
    - Gebruik voor hetzelfde begrip steeds hetzelfde woord. Wissel niet af voor de variatie.
@@ -58,6 +60,22 @@ Tussenliggende waarden: gebruik de dichtstbijzijnde kolom.
    - Zeg wat de lezer moet doen, in de volgorde waarin het gebeurt.
    - Geef concrete waarden: namen, getallen, paden, opdrachten.
    - Sluit af met de volgende stap als die er is. Geen samenvatting van wat al is gezegd.
+
+## IT- en codetermen in het Engels
+
+De lezer werkt in IT en kent de Engelse termen. Vertaal ze niet: een Nederlandse vertaling is vaak minder
+duidelijk en past niet bij de code, de documentatie en de gesprekken in het team.
+
+- Laat technische termen in het Engels staan. Dit zijn bijvoorbeeld `storage`, `cache`, `build`, `commit`,
+  `branch`, `pull request`, `merge`, `state`, `callback`, `dependency`, `module`, `release`, `crash`,
+  `deploy`, `feature flag`, `focus`, `fullscreen`, `sidebar`, `lint` en `test`.
+- Schrijf dus "storage", niet "opslag", en "dependency", niet "afhankelijkheid", als het om software gaat.
+- Gebruik de Engelse term ook als werkwoord of samenstelling, zoals "de build mislukt", "mergen",
+  "committen", "de cache legen" en "een branch aanmaken".
+- Vertaal een term alleen als het Nederlandse woord in IT echt gebruikelijk is, zoals "bestand", "map",
+  "scherm" of "knop".
+- Alle overige tekst blijft gewoon Nederlands en volgt de regels van de gekozen graad.
+- Gebruik voor hetzelfde begrip steeds dezelfde term, ook als die Engels is.
 
 ## Nauwkeurigheid gaat voor
 
@@ -78,6 +96,6 @@ Tussenliggende waarden: gebruik de dichtstbijzijnde kolom.
 
 1. Staat het antwoord of de kern in de eerste zin?
 2. Past elke zin binnen de grenzen voor de gekozen graad?
-3. Is elk vakwoord nodig, en uitgelegd waar de graad dat vraagt?
+3. Is elk vakwoord nodig, en uitgelegd waar de graad dat vraagt? Staan IT- en codetermen in het Engels?
 4. Staat er niets onjuists door vereenvoudiging?
 5. Weet de lezer wat de volgende stap is?
